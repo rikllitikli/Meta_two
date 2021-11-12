@@ -13,6 +13,8 @@ header {
 .navbar-light .navbar-toggler{
     background-color: #F5F13A;
     z-index: 80;
+    display: flex;
+    justify-content: center;
 }
 @media (max-width: 991px) {
     .navbar-collapse{
@@ -563,6 +565,7 @@ header .botton:hover{
     font-weight: 900;
     font-style: italic;
     margin-bottom: 51px;
+    padding-left: 20px;
     color: black;
 }
 .screen_two h3{
@@ -1297,6 +1300,7 @@ header .botton:hover{
     font-style: italic;
     font-family: Montserrat;
     margin-bottom: 30px;
+    padding-left: 20px!important;
 }
 .screen_eight .screen_eight_carousel .screen_eight_carousel .owl-carousel .owl-item{
     display: flex;
